@@ -369,6 +369,7 @@ body {
 .buttn {
 	margin-top: 50px;
 	display: flex;
+	cursor: pointer;
 	a{
 		position: relative;
 		text-decoration: none;
@@ -542,6 +543,7 @@ body {
 		display: inline-block;
 		text-decoration: none;
 		font-weight: 700;
+		cursor: pointer;
 	}
 }
 
@@ -801,6 +803,8 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	cursor: pointer;
+
 	a{
 		background: #fff;
 		font-weight: 600;
@@ -905,6 +909,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	cursor: pointer;
 	a{
 		color: #000;
 		background: #fff;
@@ -1195,6 +1200,7 @@ body {
 	backdrop-filter: blur(4px);
 	overflow: hidden;
 	transition: top 0.5s 0.5s, z-index 0.5s 0.5s, transform 0.5s 0s;
+	cursor: pointer;
 	@media (max-width:650px){
 		width: 80px;
 		height: 80px;
